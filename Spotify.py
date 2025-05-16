@@ -8,8 +8,8 @@ from spotipy.cache_handler import FlaskSessionCacheHandler
 app = Flask(__name__, static_folder='static')
 app.config['SECRET_KEY'] = os.urandom(64)
 
-client_id = '2ad2068ef23f4b3c885ce176f7d968fa'
-client_secret = 'dc511521176f4dd2acc32414dddbce05'
+client_id = '#personal login information'
+client_secret = '#personal login information'
 redirect_uri = "http://localhost:5000/callback"
 scope = 'playlist-read-private, streaming, user-read-playback-state, user-modify-playback-state'
 
